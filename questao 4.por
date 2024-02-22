@@ -1,10 +1,10 @@
 programa {
   funcao inicio() {
-    real kgMorango, kgMaca, precoMorango, precoMaca, precoTotal, desconto, precoFinal
+    real kgMorango, kgMaca, precoMorango, precoMaca, precoTotal, desconto = 0, precoFinal
 
     escreva("Digite a quantidade de morangos em kg:")
     leia(kgMorango)
-    escreva("Digite a quantidade de maçã em kg:")
+    escreva("Digite a quantidade de maÃ§Ã£ em kg:")
     leia(kgMaca)
 
     se (kgMorango <= 5) {
